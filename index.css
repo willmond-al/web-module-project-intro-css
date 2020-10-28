@@ -1,3 +1,36 @@
-.headerImage{
-    border-radius: 50%;
+body{
+    margin:2% 
 }
+nav{
+    text-align:center;
+}
+nav a{
+    margin: 20% 10%;
+}
+a{
+    text-decoration: none;
+    padding:0.3rem 1rem;
+    border-radius:10%;
+
+}
+
+.planVisit{
+    background:#FF764E;
+}
+
+.learn{
+    background: #5ED3EB;
+
+}
+
+.getInvolved{
+    background: #FFCD69;
+
+}
+
+.headerImage{
+    display: inline-block;
+    border-radius: 50%;
+    width: 15%;
+}
+
