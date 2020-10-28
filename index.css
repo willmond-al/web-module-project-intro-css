@@ -1,11 +1,25 @@
-body{
-    margin:2% 
+*{
+    border: 2px solid grey;
 }
+
+.mainSection{
+    margin:2%;
+}
+
+.welcome{
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+    width: 50%;
+}
+
+
 nav{
     text-align:center;
 }
 nav a{
-    margin: 20% 10%;
+    display:inline-block;
+    margin: 2% 10%;
 }
 a{
     text-decoration: none;
@@ -31,6 +45,11 @@ a{
 .headerImage{
     display: inline-block;
     border-radius: 50%;
-    width: 15%;
+    width: 20%;
+    margin:5%;
+}
+
+footer{
+    width: 100%;
 }
 
