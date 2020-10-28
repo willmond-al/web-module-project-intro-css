@@ -1,5 +1,7 @@
 *{
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
+    box-sizing: border-box;
+    
 }
 
 .mainSection{
@@ -10,7 +12,14 @@
     display: inline-block;
     text-align: center;
     margin: 5%;
+    padding: 2%;
     width: 50%;
+    font-size: 2rem;
+    object-fit: cover;
+}
+
+.welcome p{
+    font-size: 50%;
 }
 
 
@@ -19,7 +28,7 @@ nav{
 }
 nav a{
     display:inline-block;
-    margin: 2% 10%;
+    margin: 2% 5%;
 }
 a{
     text-decoration: none;
@@ -45,11 +54,39 @@ a{
 .headerImage{
     display: inline-block;
     border-radius: 50%;
-    width: 20%;
-    margin:5%;
+    width: 25%;
+    margin:4%;
+}
+
+.aboutText {
+    color:white;
+    background:#DDB9A3;
+    padding: 2% 3%;
+    text-align: center;
+}
+
+.warningText{
+    margin: 4% auto;
+    text-align: center;
+    width:35%;
+}
+
+.fire, .reservations{
+    margin:10%;
+}
+
+.warningText img{
+    display: block;
+    text-align: center;
+    margin: 2% auto;
+    width: 40%;
 }
 
 footer{
     width: 100%;
+}
+
+.footerImage{
+    object-fit: cover;
 }
 
